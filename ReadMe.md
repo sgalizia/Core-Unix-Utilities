@@ -42,10 +42,15 @@ Challenges within each section are meant to be solved in order.
 1.  Make an alias named `hello` that prints `Hello world`
 	- `alias hello='echo "Hello World"'`
 1.  Make an alias named `gocode` that navigates to your code directory
+	- `alias gocode='cd ~/Documents/make-school/core/Core-Unix-Utilities'`
 1.  Print all aliases (names and values)
+	- `alias`
 
 ### Getting Help
 
 1.  Print what options a command accepts, like `bash` or `python`
+	- `[command] --help`
 1.  Read the manual for a command, like `echo` or `ls`
+	- `man [command]`
 1.  Print the file path to a command, like `bash` or `python`
+	- `type -a [command]`
