@@ -141,17 +141,29 @@ Challenges within each section are meant to be solved in order.
 ### Streams
 
 1.  Print a sentence like `Hello world` into a file named `test.txt`
+	- `echo "Hello World" > test.txt`
 1.  Append another sentence `Hola Mundo` on a new line of `test.txt`
+	- `echo "Hola Mundo" >> test.txt`
 1.  Print the contents of the file `test.txt`
+	- `cat test.txt` or for longer files `less test.txt`
 1.  Print the contents of the file `numbers.txt`
+	- `cat Numbers/numbers.txt`
 1.  Print the first 10 lines in the file `numbers.txt`
+	- `head -10 Numbers/numbers.txt`
 1.  Print the first 5 lines in the file `numbers.txt`
+	- `head -5 Numbers/numbers.txt`
 1.  Print the last 10 lines in the file `numbers.txt`
+	- `tail -10 Numbers/numbers.txt`
 1.  Print the last 5 lines in the file `numbers.txt`
+	- `tail -5 Numbers/numbers.txt`
 1.  Print lines 6 through 10 in the file `numbers.txt`
+	- `head -10 Numbers/numbers.txt | tail -4`
 1.  Sort all lines in the file `numbers.txt`
+	- `sort Numbers/numbers.txt`
 1.  Print the first 2 characters of each line in `numbers.txt`
+	- `cut -c-2 Numbers/numbers.txt`
 1.  Print only characters 9-16 of each line in `numbers.txt`
+	- `cut -c 9-16 Numbers/numbers.txt`
 1.  Sort the first 2 characters of each line in `numbers.txt`
 1.  Print only the unique first 2 characters of each line in `numbers.txt`
 1.  Replace all `o`s with `0`s in file `test.txt`
