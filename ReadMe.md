@@ -97,24 +97,40 @@ Challenges within each section are meant to be solved in order.
 1.  Move the file `Puppies.txt` into the directory `Shelter`
 	- `mv Puppies.txt Shelter/Puppies.txt`
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
+	- `cp Cats.txt Shelter/Kittens.txt`
 1.  List the files within the directory `Shelter`
+ - `ls Shelter`
 1.  Count the words in all `.txt` files inside `Shelter`
+	- `wc Shelter/*.txt`
 1.  Try to remove the directory `Shelter` (this should fail)
+	- `rmdir Shelter`
 1.  Remove all `.txt` files inside `Shelter`
+	- `rm Shelter/*.txt`
 1.  Remove the directory `Shelter` (this should succeed)
+	- `rmdir Shelter`
 1.  Now cry because you just deleted those poor tiny animals
+	- :'(
 
 ### Permissions
 
 1.  Print out your user name
+	- `echo $USER`
 1.  List the permissions (and metadata) of all `.txt` files
+	- `ls -l *.txt`
 1.  Give all users write permission on the file `Cats.txt`
+	- `chmod a+r Cats.txt`
 1.  List the permissions (and metadata) of the file `Cats.txt`
+	- `ls -l Cats.txt`
 1.  Change the owner of the file `Cats.txt` to another user
+	- `chown user Cats.txt`
 1.  Now list the permissions (and owner) of the file `Cats.txt`
+	- `ls -l Cats.txt`
 1.  Try to change the owner of the file `Cats.txt` back to yourself
+	- `chown sam Cats.txt`
 1.  Invoke the super-user to make the previous command succeed
+	- `sudo chown sam Cats.txt`
 1.  List the permissions (and owner) of the file `Cats.txt` again
+	- `ls -l Cats.txt`
 
 
 ## Challenges, Part 2
